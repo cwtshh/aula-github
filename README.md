@@ -9,17 +9,28 @@
 
 # O que é GitHub?
 
+...
+
 # Comandos importantes!
 
-``` git clone <url> ```
-``` git branch <nome-da-branch>```
-``` git checkout <nome-da-branch> ```
-``` git status ```
-``` git add <arquivo> ```
-``` git commit -m "mensagem de commit" ```
-``` git push <repositorio-remoto> <nome-da-branch> ```
-``` git pull ```
-``` git revert ```
-``` git merge <nome-da-branch-com-o-recurso> ```
+``` 
+git clone <url>
+git branch <nome-da-branch>
+git checkout <nome-da-branch>
+git status 
+git add <arquivo> 
+git commit -m "mensagem de commit" 
+git push <repositorio-remoto> <nome-da-branch> 
+git pull
+git revert
+git merge <nome-da-branch-com-o-recurso> 
+```
 
+# Como criar um repositório?
+
+...
+
+# Como conectar o nosso projeto ao repositório?
+
+...
     
