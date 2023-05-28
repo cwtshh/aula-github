@@ -50,8 +50,47 @@
   Entao nossa ordem fica assim:
   
 ![flow virtual areas](https://github.com/cwtshh/aula-github/assets/101185927/c8640853-f6ea-40d5-9ab8-6097bb00a597)
+  
+  Para enviar nosso commit para o repositório online, executamos:
+  
+  > git push
 
-   
+ 
+# Boas práticas para usar o git
+  
+  1. Faça pequenos commits.
+      Não deixe para commitar apenas quando você terminar tudo, faça commits pequenos e com o código funcionando. Isso facilita que voce volte em alguma parte que deu errado.
+  
+  2. Escreva boas mensagens de commits.
+      Deixe claro quais mudanças foram feitas para que outras pessoas que possívelmente estão trabalhando no mesmo projeto saibam exatamente o que está sendo alterado.
+  
+
+# Como instalar o git?
+  
+  ## Windows
+    Clique [aqui](https://git-scm.com/downloads) para baixar no windows.
+  
+  ## Linux
+  
+    > $ sudo apt-get install git
+  
+  Para verificar se está instalado
+  
+    > $ git --version
+  
+  
+ # Como configurar seu git?
+  
+  Agora que estamos com o git devidamente instalado, devemos configurar os nossos dados.
+  
+  Devemos usar os seguintes comandos:
+  
+      > git config --global user.name "nome de usuario"
+      
+      > git config --global user.email "seu email"
+  
+ Essas configurações ficam salvas em um arquivo .gitconfig
+     
 
 # Comandos importantes!
 
