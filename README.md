@@ -44,4 +44,7 @@ git merge <nome-da-branch-com-o-recurso>
 # Como conectar o nosso projeto ao repositório?
 
 ...
+
+# Lista de comandos
+![Git cheat sheet light (FINAL) (2)](https://github.com/cwtshh/aula-github/assets/101185927/1337d23b-caa9-4222-b7ab-216902e51c7c)
     
