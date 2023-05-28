@@ -21,7 +21,7 @@
   Para isso, você cria uma ramificação do seu código, uma branch, em que você pega o estado atual daquele código e cria um novo ambiente para desenvolver a nova feature a partir dali.
   Dessa forma, você não altera a versão principal do seu código, consegue desenvolver sua funcionalidade com segurança, e quando esse código estiver funcionando, você poderá colocar ele na principal (merge).
   
- ![branch](https://github.com/cwtshh/aula-github/assets/101185927/9f7c746c-9720-4a15-9376-b12eb10fcee3)
+![branch](https://github.com/cwtshh/aula-github/assets/101185927/9f7c746c-9720-4a15-9376-b12eb10fcee3)
 
 
 # Como funciona um repositório e como fazer commit
@@ -35,9 +35,22 @@
   
   Após as alterações, o proximo passo é adicionar essas alterações a **Stagind area**, que age como uma especie de "prévia do commit", mostrando todos os arquivos que foram alterados.
   
+  * Para adicionar apenas um arquivo
+  > git add <file>
+  
+  ou
+  
+  * Para adicionar todos os arquivos com mudanças
+  > git add .
+  
   O próximo passo é pegar todas as alterações e fazer um commit com elas. Quando você faz isso, esse commit vai para **commit area** ou também conhecida como local repository. Aqui fica tudo do seu repositório.
   
+  > git commit -m "mensagem do commit"
+  
   Entao nossa ordem fica assim:
+  
+![flow virtual areas](https://github.com/cwtshh/aula-github/assets/101185927/c8640853-f6ea-40d5-9ab8-6097bb00a597)
+
    
 
 # Comandos importantes!
