@@ -21,6 +21,17 @@
   Para isso, você cria uma ramificação do seu código, uma branch, em que você pega o estado atual daquele código e cria um novo ambiente para desenvolver a nova feature a partir dali.
   Dessa forma, você não altera a versão principal do seu código, consegue desenvolver sua funcionalidade com segurança, e quando esse código estiver funcionando, você poderá colocar ele na principal (merge).
 
+# Como funciona um repositório e como fazer commit
+  Quando estamos trabalhando em um repositório, temos três diferentes tipos de zonas virtuais:
+  
+   * Working Directory
+   * Staging Area
+   * Commit Area
+
+  O **Working Directory**, também conhecido como Working Tree, é a área em que você está trabalhando. Onde estão todos os seus arquivos, onde você criará, deletará e editará arquivos novos ou velhos. Também é onde estão os arquivos untracked.
+  
+  Após as alterações, o proximo passo é adicionar essas alterações a **Stagind area**, que age como uma especie de "prévia do commit", mostrando todos os arquivos que foram alterados.
+   
 
 # Comandos importantes!
 
