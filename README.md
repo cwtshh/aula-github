@@ -20,6 +20,9 @@
   Branch significa “ramo”, ou seja, uma ramificação do seu código. Imagine a seguinte situação: você tem o seu código que já está funcionando em produção e precisa desenvolver uma nova funcionalidade. Mas você não pode mexer direto no código em produção.
   Para isso, você cria uma ramificação do seu código, uma branch, em que você pega o estado atual daquele código e cria um novo ambiente para desenvolver a nova feature a partir dali.
   Dessa forma, você não altera a versão principal do seu código, consegue desenvolver sua funcionalidade com segurança, e quando esse código estiver funcionando, você poderá colocar ele na principal (merge).
+  
+ ![branch](https://github.com/cwtshh/aula-github/assets/101185927/9f7c746c-9720-4a15-9376-b12eb10fcee3)
+
 
 # Como funciona um repositório e como fazer commit
   Quando estamos trabalhando em um repositório, temos três diferentes tipos de zonas virtuais:
@@ -31,6 +34,10 @@
   O **Working Directory**, também conhecido como Working Tree, é a área em que você está trabalhando. Onde estão todos os seus arquivos, onde você criará, deletará e editará arquivos novos ou velhos. Também é onde estão os arquivos untracked.
   
   Após as alterações, o proximo passo é adicionar essas alterações a **Stagind area**, que age como uma especie de "prévia do commit", mostrando todos os arquivos que foram alterados.
+  
+  O próximo passo é pegar todas as alterações e fazer um commit com elas. Quando você faz isso, esse commit vai para **commit area** ou também conhecida como local repository. Aqui fica tudo do seu repositório.
+  
+  Entao nossa ordem fica assim:
    
 
 # Comandos importantes!
