@@ -68,7 +68,7 @@
 # Como instalar o git?
   
   ## Windows
-    Clique [aqui](https://git-scm.com/downloads) para baixar no windows.
+  https://git-scm.com/downloads
   
   ## Linux
   
