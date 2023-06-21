@@ -103,7 +103,6 @@ git add <arquivo>
 git commit -m "mensagem de commit" 
 git push <repositorio-remoto> <nome-da-branch> 
 git pull
-git revert
 git merge <nome-da-branch-com-o-recurso> 
 ```
 
